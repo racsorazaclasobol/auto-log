@@ -1,0 +1,20 @@
+{
+  "name": "libreta-vehicular-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server para la app Libreta Vehicular - gestión de mantención de vehículos por agentes de IA",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

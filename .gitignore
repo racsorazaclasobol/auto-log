@@ -1,0 +1,13 @@
+node_modules/
+.data.json
+data.json
+*.log
+.DS_Store
+dist/
+.expo/
+web-build/
+.idea/
+.vscode/
+*.tsbuildinfo
+.env
+.env.local
